@@ -1,0 +1,31 @@
+###
+
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/states/
+
+
+###
+
+GET http://localhost:3000/states/1/
+
+###
+
+POST http://localhost:3000/districts/
+
+###
+GET http://localhost:3000/districts/22/
+
+###
+delete http://localhost:3000/districts/22/
+
+###
+PUT http://localhost:3000/districts/22/
+
+
+###
+GET http://localhost:3000/states/:21/stats/
+
+###
+GET http://localhost:3000/districts/2/details/
